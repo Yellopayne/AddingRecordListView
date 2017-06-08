@@ -67,7 +67,7 @@ public class MessageReceiver extends AppCompatActivity {
                             .show();
                 }
                 else {
-                    deleteRecord=false;
+                    deleteRecord=false; //DEleting
                     Toast.makeText(getApplicationContext(),
                             "Now you cannot delete Records :C",
                             Toast.LENGTH_SHORT)

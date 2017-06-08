@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="yello.putinto2.Menu">
+    tools:context="yello.putinto2.Menu"
+    android:background="#5d5d5d">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Menu"
         android:id="@+id/textView"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:textColor="#e6c12e" />
 
     <EditText
         android:layout_width="match_parent"
@@ -24,7 +26,9 @@
         android:id="@+id/editText"
         android:hint="Enter your name"
         android:paddingEnd="0dp"
-        android:paddingStart="0dp" />
+        android:paddingStart="0dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#34bb3b" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -32,7 +36,9 @@
         android:layout_height="wrap_content"
         android:text="Save Record"
         android:id="@+id/button"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"
+        android:background="#333131"
+        android:textColor="#fafafa" />
 
 
 

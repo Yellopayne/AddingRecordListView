@@ -28,6 +28,7 @@ public class MessageReceiver extends AppCompatActivity {
     private static Boolean deleteRecord=false;
     private static Switch sw1;
 
+    //Version 1.08
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +68,7 @@ public class MessageReceiver extends AppCompatActivity {
                             .show();
                 }
                 else {
-                    deleteRecord=false; //DEleting
+                    deleteRecord=false;
                     Toast.makeText(getApplicationContext(),
                             "Now you cannot delete Records :C",
                             Toast.LENGTH_SHORT)
